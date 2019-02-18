@@ -1,5 +1,5 @@
 # Write your code here.
-def dictionary(word)
+def dictionary
   subs = {
     "hello" => "hi",
     "to" => "2",
@@ -12,7 +12,6 @@ def dictionary(word)
     "at" => "@",
     "and" => "&"
   }
-  subs[word]
 end
 
 def word_substituter(input)
