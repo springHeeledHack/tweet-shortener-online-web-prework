@@ -17,4 +17,4 @@ end
 def word_substituter(input)
   input_a = input.split(" ")
   input_a.each do |val|
-    if dictionary.keys
+    if dictionary.has_key? 
