@@ -1,5 +1,5 @@
 # Write your code here.
-def dictionary
+def dictionary(word)
   subs = {
     "hello" => "hi",
     "to" => "2",
@@ -12,6 +12,7 @@ def dictionary
     "at" => "@",
     "and" => "&"
   }
+  subs[word]
 end
 
 def word_substituter(input)
@@ -20,7 +21,7 @@ def word_substituter(input)
   input_a.each do |val|
     puts dictionary.has_key?(val)
     if dictionary.has_key?(val)
-      puts dictionary(val)
+      puts dictionary[val]
       val = dictionary[val]
     end
   end
