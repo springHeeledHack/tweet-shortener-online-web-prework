@@ -53,7 +53,7 @@ end
 
 def shortened_tweet_truncator(input)
   if input.length > 140
-    input = input[0..140] + "..."
+    input = input[0..136] + "..."
   end
   input
 end
