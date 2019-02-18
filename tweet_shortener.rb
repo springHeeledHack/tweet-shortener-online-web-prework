@@ -28,4 +28,10 @@ def word_substituter(input)
   output_s = output_a.join(" ")
 end
 
+def bulk_tweet_shortener(input_a)
+  input_a.each do |val|
+    puts word_substituter(val)
+  end
+end
+
 word_substituter("Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!")
