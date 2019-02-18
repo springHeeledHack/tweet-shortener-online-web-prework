@@ -22,3 +22,4 @@ def word_substituter(input)
     end
   end
   input_s = input_a.join(" ")
+end
