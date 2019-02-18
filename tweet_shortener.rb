@@ -16,10 +16,15 @@ end
 
 def word_substituter(input)
   input_a = input.split(" ")
+  puts input_a
   input_a.each do |val|
+    puts dictionary.has_key?(val)
     if dictionary.has_key?(val)
+      puts dictionary(val)
       val = dictionary[val]
     end
   end
   input_s = input_a.join(" ")
 end
+
+word_substituter("Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!")
