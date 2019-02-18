@@ -18,7 +18,6 @@ def word_substituter(input)
   input_a = input.split(" ")
   puts input_a
   input_a.each do |val|
-    puts dictionary.has_key?(val)
     if dictionary.has_key?(val)
       puts dictionary[val]
       val = dictionary[val]
