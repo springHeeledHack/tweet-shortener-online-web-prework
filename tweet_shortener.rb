@@ -44,4 +44,11 @@ def bulk_tweet_shortener(input_a)
   end
 end
 
+def selective_tweet_+shortener(input)
+  if input.length > 140 
+    word_substituter(input)
+  end
+  input
+end
+
 word_substituter("Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!")
