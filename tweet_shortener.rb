@@ -25,9 +25,7 @@ def word_substituter(input)
       output_a << val
     end
   end
-    output_s = output_a.join(" ")
-  puts output_s
-  output_s
+  output_s = output_a.join(" ")
 end
 
 word_substituter("Hey guys, can anyone teach me how to be cool? I really want to be the best at everything, you know what I mean? Tweeting is super fun you guys!!!!")
